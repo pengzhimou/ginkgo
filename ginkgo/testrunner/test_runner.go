@@ -360,7 +360,7 @@ func (t *TestRunner) runParallelGinkgoSuite() RunResult {
 	select {
 	case <-result:
 		fmt.Println("")
-	case <-time.After(time.Second * 30):
+	case <-time.After(time.Second * 60):
 		//the aggregator never got back to us!  something must have gone wrong
 		fmt.Println(`
 	 -------------------------------------------------------------------
