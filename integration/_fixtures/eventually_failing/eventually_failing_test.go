@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/pengzhimou/ginkgo"
 )
 
 var _ = Describe("EventuallyFailing", func() {

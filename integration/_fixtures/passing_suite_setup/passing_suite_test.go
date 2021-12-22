@@ -1,8 +1,8 @@
 package passing_before_suite_test
 
 import (
-	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/pengzhimou/ginkgo"
 )
 
 var _ = Describe("PassingSuiteSetup", func() {

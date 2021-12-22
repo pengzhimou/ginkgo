@@ -13,11 +13,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/interrupthandler"
-	"github.com/onsi/ginkgo/ginkgo/testrunner"
-	colorable "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable"
-	"github.com/onsi/ginkgo/types"
+	"github.com/pengzhimou/ginkgo/config"
+	"github.com/pengzhimou/ginkgo/ginkgo/interrupthandler"
+	"github.com/pengzhimou/ginkgo/ginkgo/testrunner"
+	colorable "github.com/pengzhimou/ginkgo/reporters/stenographer/support/go-colorable"
+	"github.com/pengzhimou/ginkgo/types"
 )
 
 func BuildRunCommand() *Command {

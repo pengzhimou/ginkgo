@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
+	. "github.com/pengzhimou/ginkgo"
+	. "github.com/pengzhimou/ginkgo/extensions/table"
 )
 
 var _ = DescribeTable("Validate outline from file with",

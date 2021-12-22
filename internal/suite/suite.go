@@ -5,17 +5,17 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/onsi/ginkgo/internal/spec_iterator"
+	"github.com/pengzhimou/ginkgo/internal/spec_iterator"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/containernode"
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/internal/spec"
-	"github.com/onsi/ginkgo/internal/specrunner"
-	"github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
+	"github.com/pengzhimou/ginkgo/config"
+	"github.com/pengzhimou/ginkgo/internal/containernode"
+	"github.com/pengzhimou/ginkgo/internal/failer"
+	"github.com/pengzhimou/ginkgo/internal/leafnodes"
+	"github.com/pengzhimou/ginkgo/internal/spec"
+	"github.com/pengzhimou/ginkgo/internal/specrunner"
+	"github.com/pengzhimou/ginkgo/internal/writer"
+	"github.com/pengzhimou/ginkgo/reporters"
+	"github.com/pengzhimou/ginkgo/types"
 )
 
 type ginkgoTestingT interface {

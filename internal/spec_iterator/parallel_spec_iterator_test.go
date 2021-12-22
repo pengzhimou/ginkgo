@@ -3,17 +3,17 @@ package spec_iterator_test
 import (
 	"net/http"
 
-	. "github.com/onsi/ginkgo/internal/spec_iterator"
 	"github.com/onsi/gomega/ghttp"
+	. "github.com/pengzhimou/ginkgo/internal/spec_iterator"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/containernode"
-	"github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/internal/spec"
-	"github.com/onsi/ginkgo/types"
+	"github.com/pengzhimou/ginkgo/internal/codelocation"
+	"github.com/pengzhimou/ginkgo/internal/containernode"
+	"github.com/pengzhimou/ginkgo/internal/leafnodes"
+	"github.com/pengzhimou/ginkgo/internal/spec"
+	"github.com/pengzhimou/ginkgo/types"
 
-	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/pengzhimou/ginkgo"
 )
 
 var _ = Describe("ParallelSpecIterator", func() {

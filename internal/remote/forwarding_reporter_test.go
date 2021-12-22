@@ -3,11 +3,11 @@ package remote_test
 import (
 	"encoding/json"
 
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	. "github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/types"
 	. "github.com/onsi/gomega"
+	. "github.com/pengzhimou/ginkgo"
+	"github.com/pengzhimou/ginkgo/config"
+	. "github.com/pengzhimou/ginkgo/internal/remote"
+	"github.com/pengzhimou/ginkgo/types"
 )
 
 var _ = Describe("ForwardingReporter", func() {

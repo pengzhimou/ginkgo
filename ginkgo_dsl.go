@@ -5,7 +5,7 @@ The godoc documentation describes Ginkgo's API.  More comprehensive documentatio
 
 Ginkgo's preferred matcher library is [Gomega](http://github.com/onsi/gomega)
 
-Ginkgo on Github: http://github.com/onsi/ginkgo
+Ginkgo on Github: http://github.com/pengzhimou/ginkgo
 
 Ginkgo is MIT-Licensed
 */
@@ -21,16 +21,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/global"
-	"github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/internal/testingtproxy"
-	"github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/reporters/stenographer"
-	colorable "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable"
-	"github.com/onsi/ginkgo/types"
+	"github.com/pengzhimou/ginkgo/config"
+	"github.com/pengzhimou/ginkgo/internal/codelocation"
+	"github.com/pengzhimou/ginkgo/internal/global"
+	"github.com/pengzhimou/ginkgo/internal/remote"
+	"github.com/pengzhimou/ginkgo/internal/testingtproxy"
+	"github.com/pengzhimou/ginkgo/internal/writer"
+	"github.com/pengzhimou/ginkgo/reporters"
+	"github.com/pengzhimou/ginkgo/reporters/stenographer"
+	colorable "github.com/pengzhimou/ginkgo/reporters/stenographer/support/go-colorable"
+	"github.com/pengzhimou/ginkgo/types"
 )
 
 var deprecationTracker = types.NewDeprecationTracker()

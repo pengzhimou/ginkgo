@@ -14,11 +14,11 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/onsi/ginkgo/internal/spec_iterator"
+	"github.com/pengzhimou/ginkgo/internal/spec_iterator"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
+	"github.com/pengzhimou/ginkgo/config"
+	"github.com/pengzhimou/ginkgo/reporters"
+	"github.com/pengzhimou/ginkgo/types"
 )
 
 /*

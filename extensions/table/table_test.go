@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	. "github.com/onsi/ginkgo/extensions/table"
+	. "github.com/pengzhimou/ginkgo/extensions/table"
 
-	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/pengzhimou/ginkgo"
 )
 
 var _ = Describe("Table", func() {

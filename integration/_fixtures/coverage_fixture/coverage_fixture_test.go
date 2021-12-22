@@ -1,11 +1,11 @@
 package coverage_fixture_test
 
 import (
-	. "github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture"
-	. "github.com/onsi/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture"
+	. "github.com/pengzhimou/ginkgo/integration/_fixtures/coverage_fixture"
+	. "github.com/pengzhimou/ginkgo/integration/_fixtures/coverage_fixture/external_coverage_fixture"
 
-	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/pengzhimou/ginkgo"
 )
 
 var _ = Describe("CoverageFixture", func() {

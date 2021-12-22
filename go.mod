@@ -1,4 +1,4 @@
-module github.com/onsi/ginkgo
+module github.com/pengzhimou/ginkgo
 
 go 1.15
 

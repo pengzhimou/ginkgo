@@ -3,8 +3,8 @@ package outline_test
 import (
 	"testing"
 
-	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/pengzhimou/ginkgo"
 )
 
 func TestOutline(t *testing.T) {

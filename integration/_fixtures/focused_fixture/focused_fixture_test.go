@@ -1,8 +1,8 @@
 package focused_fixture_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/extensions/table"
+	. "github.com/pengzhimou/ginkgo"
+	. "github.com/pengzhimou/ginkgo/extensions/table"
 )
 
 var _ = Describe("FocusedFixture", func() {
